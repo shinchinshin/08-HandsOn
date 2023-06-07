@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-top-style: inset;
+    border-top-width: 0.75px;
+    border-top-color: darkgray;
+    justify-content: flex-end;
+    margin-top: 20vw;
+}
+
+
+.footermain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.footermain h3 {
+    margin: 30px 40px;
+}

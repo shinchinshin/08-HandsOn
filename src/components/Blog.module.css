@@ -1,0 +1,72 @@
+.blogdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
+span {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.article {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 40%;
+    margin: 20px 0px;
+}
+
+.arHead {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.auth {
+    font-weight: 700;
+    color: red;
+}
+
+.article h3 {
+    margin: 0 0;
+    transition: 0.3s;
+}
+
+.article h3:hover {
+    font-size: 1.2rem;
+}
+
+.tags {
+    display: flex;
+    
+}
+
+.tags p {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    border-radius: 15px;
+    font-weight: 700;
+    color: darkgrey;
+    background-color: transparent;
+   padding:0 10px;
+    border-style: none;
+    outline-style: solid;
+    outline-color: darkgray;
+    outline-width: 1px;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+.tags p:hover {
+    color: black;
+    border-color: black;
+    
+}
